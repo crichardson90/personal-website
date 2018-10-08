@@ -1,3 +1,63 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#github-img {
+  height: 35px;
+  margin-bottom: -5px;
+}
+
+#facebook-img {
+  height: 35px;
+  margin-bottom: -5px;
+}
+
+#gmail-img {
+  height: 35px;
+  margin-bottom: -10px;
+}
+
+#twitch-img {
+  height: 35px;
+  margin-bottom: -5px;
+}
+
+#coty_and_marty-img {
+  height: 225px;
+  border-radius: 50%;
+}
+
+.bordered {
+  border-style: dotted black;
+}
+
+p {
+  color: black;
+  background: lightblue;
+}
+
+#my-navbar a {
+  text-decoration: none;
+  background-color: lightblue;
+  padding: 0px;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+#my-navbar a:hover {
+  background-color: #5cf2db;
+  transition-duration: 500ms;
+  color: black;
+}
+
+#contact-list a{
+  text-decoration: none;
+}
+
+#about-header {
+  font-style: italic;
+}
+
+#contact-header {
+  font-style: italic;
+}
+
+
+
+
