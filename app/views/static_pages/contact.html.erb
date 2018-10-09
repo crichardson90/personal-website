@@ -1,31 +1,28 @@
-<h2>My Contacts</h2>
+<h2 id="contact-header">My Contacts</h2>
+<p> If you are interested in reaching out to me, please feel free to click one of the links below!!! </p>
 
 <ul id="contact-list">
  <li>
-  <%= link_to("https://github.com/crichardson90", target: "_blank") do %>
-    My GitHub
-    <%= image_tag("github_logo.png", id: "github-img") %>
+  <%= link_to("https://github.com/crichardson90", class: "contact-link",  target: "_blank") do %>
+    <i class="fab fa-github"></i> My Github
     <% end %>
 </li>
 
  <li>
-  <%= link_to("https://www.facebook.com/coty.richardson.39", target: "_blank") do %>
-    My Facebook
-    <%= image_tag("facebook_logo.png", id: "facebook-img") %>
+  <%= link_to("https://www.facebook.com/coty.richardson.39", class: "contact-link", target: "_blank") do %>
+    <i class="fab fa-facebook"></i> My Facebook
     <% end %>
 </li>
 
  <li>
-  <%= link_to("mailto:cotyjrichardson1990@gmail.com", target: "_blank") do %>
-    My Email
-    <%= image_tag("gmail_logo.jpg", id: "gmail-img") %>
-    <% end %>
+  <%= link_to("mailto:cotyjrichardson1990@gmail.com", class: "contact-link",  target: "_blank") do %>
+    <i class="far fa-envelope"></i> My Email
+  <% end %>
 </li>
 
  <li>
-  <%= link_to("https://www.twitch.tv/richyrichtv", target: "_blank") do %>
-    My Twitch Channel
-    <%= image_tag("twitch_logo.png", id: "twitch-img") %>
-    <% end %>
+  <%= link_to("https://www.twitch.tv/richyrichtv", class: "contact-link",  target: "_blank") do %>
+   <i class="fab fa-twitch"></i> My Twitch Channel
+   <% end %>
 </li>
 </ul>
